@@ -1,7 +1,7 @@
 #include <cmath>
 #include <iostream>
 using namespace std;
-int main{
+int main(){
 
        	double side1, side2; 
 	double square, perimeter, diagonal; 
@@ -13,12 +13,12 @@ int main{
 	return 0; 
 	} 
 	
-	square = (side1 + side2)*2; 
-	perimeter = side1 * side2; 
+	perimeter = (side1 + side2)*2; 
+	square = side1 * side2; 
 	diagonal = sqrt( pow(side1, 2) + pow(side2, 2) ); 
 	
 	cout << "Периметр = " << perimeter << endl; 
 	cout << "Площадь = " << square << endl; 
-	cout << "Диагональ = " << diagonal<< endl; 
+	cout << "Диагональ = " << diagonal<< endl;//hello 
 	return 0; 
 }
