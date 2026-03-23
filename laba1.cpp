@@ -9,8 +9,8 @@ int main(){
 	cin >> side1 >> side2;// введем стороны прямоуголька 
 	
 	if (side1 <= 0 || side2 <= 0){ //защита от отрицательных чисел
-	cout << "Ошибка!" <<endl; 
-	return 0; 
+		cout << "Ошибка!" <<endl; 
+		return 0; 
 	} 
 	
 	perimeter = (side1 + side2)*2; 
@@ -20,5 +20,5 @@ int main(){
 	cout << "Периметр = " << perimeter << endl; 
 	cout << "Площадь = " << square << endl; 
 	cout << "Диагональ = " << diagonal<< endl; 
-	return 0; 
+	return 0;//hello 
 }
