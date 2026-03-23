@@ -20,5 +20,5 @@ int main(){
 	cout << "Периметр = " << perimeter << endl; 
 	cout << "Площадь = " << square << endl; 
 	cout << "Диагональ = " << diagonal<< endl; 
-	return 0;//hello 
+	return 0;//hi 
 }
